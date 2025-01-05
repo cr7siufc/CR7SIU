@@ -16,6 +16,17 @@ body {
     align-items: center;
     flex-direction: column;
     text-align: center;
+    padding: 20px;
+    margin: 0;
+}
+
+/* Centering the entire content */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 /* Styling for the 'Tap to Earn' container */
@@ -24,12 +35,13 @@ body {
     justify-content: center;
     align-items: center;
     position: relative;
+    margin-bottom: 20px; /* Space between the button and text */
 }
 
 /* Circle containing the 'Tap to Earn' option */
 .tap-to-earn {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     background-color: #F8C200; /* CR7 yellow */
     display: flex;
@@ -47,7 +59,7 @@ body {
 
 /* Text style inside the circle */
 .tap-to-earn-text {
-    font-size: 16px;
+    font-size: 18px;
     font-weight: bold;
     color: #fff;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
@@ -60,7 +72,7 @@ body {
     font-weight: bold;
 }
 
-/* Button and other elements */
+/* Button styling */
 button {
     padding: 12px 20px;
     background-color: #F8C200; /* CR7 yellow */
