@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CR7SIUFC App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <header>
+            <h1>Welcome to CR7SIUFC</h1>
+            <div id="user-name"></div>
+        </header>
+        <main>
+            <section id="home">
+                <h2>Tap to Earn Points</h2>
+                <button id="tap-button">Tap!</button>
+                <p>Points Earned: <span id="current-points">0</span></p>
+                <p>Total Points: <span id="total-points">0</span></p>
+                <button id="refill-button">Refill (1000 points)</button>
+            </section>
+
+            <section id="attributes">
+                <h2>Upgrade Football Attributes</h2>
+                <div id="attributes-list"></div>
+            </section>
+
+            <section id="wallet">
+                <h2>Wallet & Token Conversion</h2>
+                <p>Convert Points to Tokens</p>
+                <button id="convert-button">Convert</button>
+                <p>Tokens: <span id="tokens">0</span></p>
+                <h3>Connect Wallet</h3>
+                <button id="connect-wallet">Connect Wallet</button>
+                <h4>Airdrop</h4>
+                <p>Status: <span id="airdrop-status">Under Maintenance</span></p>
+            </section>
+        </main>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>
